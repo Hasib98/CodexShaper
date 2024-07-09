@@ -387,6 +387,9 @@ body {
 .tranding-slide .tranding-slide-img:hover {
   transform: scale(1.15);
 }
+.tranding-slide .tranding-slide-img:hover img{
+  filter: brightness(35%);
+}
 
 .tranding-slide .tranding-slide-img .movie-details{
  position: absolute;
@@ -404,8 +407,15 @@ body {
 .tranding-slide .tranding-slide-img .movie-speicification{
  margin-left: -10px;
 }
-.tranding-slide .tranding-slide-img .movie-genre{
 
+.tranding-slide-img .play-button{
+  /* position: absolute;
+  background: #FFFFFF;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%; */
 }
 
 
@@ -497,4 +507,4 @@ body {
   content: '';
 }
 
-/* comment */
+/* 192.168.31.173 */
