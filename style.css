@@ -329,8 +329,8 @@ body {
 
 
 .tranding {
-  padding: 4rem 0;
-  height: auto;
+  padding-top: 10px;
+  /* background-color: wheat; */
 }
 .container {
   max-width: 124rem;
@@ -364,7 +364,9 @@ body {
   padding: 2rem 0;
   position: relative;
 }
-
+.swiper-wrapper{
+  
+}
 .tranding-slide {
   width: 21rem;
   height: 27rem;
